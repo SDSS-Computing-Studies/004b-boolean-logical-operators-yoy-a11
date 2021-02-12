@@ -15,3 +15,13 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
+number = input("please enter a number")
+a = b = float(number)
+a = 0.9759 AU
+b = 1.016 AU
+x = 1.0
+if x > a:
+if x < b:
+print("x is between" +float(a) + "and" + float(b))
+
+ 
