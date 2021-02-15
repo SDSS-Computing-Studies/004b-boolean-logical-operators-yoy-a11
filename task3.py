@@ -16,8 +16,8 @@ Enter a number: -3
 -3 is not a positive integer
 """
 import math
-number = int(input("please enter a number"))
-if a > 0:
-    print("it is a positive integer.")
+number = int(input())
+if number > 0:
+    print(str(number) + " is a positive integer.")
 else:
-    print("it is not a positive integer.")
+    print(str(number) + " is not a positive integer.")
