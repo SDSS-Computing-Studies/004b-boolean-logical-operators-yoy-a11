@@ -16,7 +16,6 @@ That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
 number = float(input("a number(float)"))
-a = b
 a = 0.9759 
 b = 1.016
 
