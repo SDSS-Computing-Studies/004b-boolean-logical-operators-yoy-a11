@@ -15,14 +15,14 @@ Outputs:
 That is within normal Earth orbit.
 That is not within normal Earth orbit.
 """
-number = input("a number(float)")
-a = b = float(number)
+number = float(input("a number(float)"))
+a = b
 a = 0.9759 
 b = 1.016
-x = 1
-if a < x < b
-print("That is within normal Earth orbit")
+
+if a < number < b:
+    print("That is within normal Earth orbit")
 else:
-print("That is not within normal Earth orbit")
+    print("That is not within normal Earth orbit")
 
  
