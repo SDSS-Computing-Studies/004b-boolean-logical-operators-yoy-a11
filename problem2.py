@@ -23,3 +23,6 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+a = int(input("please enter number a "))
+b = int(input("please enter number b "))
+if a < b 

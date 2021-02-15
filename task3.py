@@ -15,3 +15,9 @@ example:
 Enter a number: -3
 -3 is not a positive integer
 """
+import math
+number = int(input("please enter a number"))
+if a > 0:
+    print("it is a positive integer.")
+else:
+    print("it is not a positive integer.")

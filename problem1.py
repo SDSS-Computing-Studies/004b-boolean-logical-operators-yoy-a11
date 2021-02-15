@@ -19,3 +19,9 @@ Enter a number: 48
 """
 
 #! python3
+number = int(input("Please enter a number"))
+if a = number % 6 == 0:
+    if a = number % 8 ！= 0:
+        print("xx is frue")
+else:
+    print("xx is not frue")
