@@ -20,8 +20,8 @@ a = 0.9759
 b = 1.016
 
 if a < number < b:
-    print("That is within normal Earth orbit")
+    print("That is within normal Earth orbit.")
 else:
-    print("That is not within normal Earth orbit")
+    print("That is not within normal Earth orbit.")
 
  
