@@ -27,9 +27,9 @@ Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
 
-a = int(input("Enter an integer=>"))
-b = int(input("Enter an integer=>"))
-c = int(input("Enter an integer=>"))
+a = int(input())
+b = int(input())
+c = int(input())
 Pythagorean_triples = [a,b,c]
 Pythagorean_triples.sort()
 
