@@ -19,9 +19,10 @@ import math
 number = input()
 n = False
 f = False
+integer_part = round(float(number))
 if number[0] == '-':
     n = True
-if '.' in number:
+if float(number) - integer_part != 0:
     f = True
 if not n and  not f:
     print(str(number) + " is a positive integer.")
