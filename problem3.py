@@ -38,9 +38,9 @@ single_square = Pythagorean_triples[2] ** 2
 if sum_of_square == single_square: 
     print(str(Pythagorean_triples[0]) + ","
     + str(Pythagorean_triples[1]) +","
-    + str(Pythagorean_triples[2]) +" form a Pythagorean Triple")
+    + str(Pythagorean_triples[2]) +" form a Pythagorean triple")
 else:
     print(str(Pythagorean_triples[0]) + ","
     + str(Pythagorean_triples[1]) +","
-    + str(Pythagorean_triples[2]) +" do not form a Pythagorean Triple")
+    + str(Pythagorean_triples[2]) +" do not form a Pythagorean triple")
 
