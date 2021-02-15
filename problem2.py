@@ -23,6 +23,11 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
-a = int(input("please enter number a "))
-b = int(input("please enter number b "))
-if a < b 
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+c = min(a,b)
+d = max(a,b)
+if d % c == 0:
+    print(str(c) + " is a factor of " + str(d))
+else:
+    print(str(c) + " is not a factor of " + str(d))
