@@ -16,8 +16,14 @@ Enter a number: -3
 -3 is not a positive integer
 """
 import math
-number = int(input())
-if number > 0:
+number = input()
+n = False
+f = False
+if number[0] == '-':
+    n = True
+if '.' in number:
+    f = True
+if not n and  not f:
     print(str(number) + " is a positive integer.")
 else:
     print(str(number) + " is not a positive integer.")
