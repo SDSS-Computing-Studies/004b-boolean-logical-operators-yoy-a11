@@ -36,7 +36,7 @@ Pythagorean_triples.sort()
 sum_of_square = Pythagorean_triples[0] ** 2 + Pythagorean_triples[1] ** 2
 single_square = Pythagorean_triples[2] ** 2
 if sum_of_square == single_square: 
-    print(str(a) + ","+ str(b) +","+ str(c) + " form a Pythagorean Triple")
+    print(str(Pythagorean_triples[0]) + ","+ str(Pythagorean_triples[1]) +","+ str(Pythagorean_triples[2]) + " form a Pythagorean Triple")
 else:
     print(str(a) + ","+ str(b) +","+ str(c) + " do not form a Pythagorean Triple")
 
